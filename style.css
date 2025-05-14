@@ -1,0 +1,43 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: rgb(238, 200, 75);
+}
+
+header{
+    background-color: rgb(0, 153, 255);
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    background-image: url(https://ser.vitao.com.br/wp-content/uploads/2017/12/shutterstock_252338818-1-920x535.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.Content{
+    background-color: rgba(194, 67, 88, 0.788);
+    padding: 15px;
+    border-radius: 50px;
+}
+
+footer{
+    background-color: rgb(43, 180, 116);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-image: url(https://ser.vitao.com.br/wp-content/uploads/2017/12/shutterstock_252338818-1-920x535.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 19px;
+
+}
